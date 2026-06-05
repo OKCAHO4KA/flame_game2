@@ -148,7 +148,6 @@ class PlayerComponent extends Character {
 
   void _resetAnimation() {
     if (animation?.loop == false) {
-      print(animation?.loop);
       animation?.loop = true;
       // animation?.reset();
     }
